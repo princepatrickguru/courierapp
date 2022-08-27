@@ -1,0 +1,44 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    background-color: #D24548;
+    color: #fff;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px 20px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-btn{
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-btn i {
+    color: #fff;
+    font-size: large;
+}
+@media screen and (min-width: 670px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}

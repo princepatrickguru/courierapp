@@ -1,0 +1,84 @@
+.hamberger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+    margin: 0 10px;
+}
+
+.hamberger .fa{
+    color: #ccc;
+    font-size: 1em;
+}
+.hambergerx{
+    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+
+.hamburgerbars{
+    width: 20px;
+    height: 1x;
+    border: 1px solid #ccc;
+}
+
+.hamburgerbarslt{
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: rotate(45deg);
+}
+
+.hamburgerbarslb{
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: rotate(130deg);
+}
+
+.hamburgerbarsrt{
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: rotate(320deg);
+}
+
+.hamburgerbarsrb{
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: rotate(50deg);
+}
+
+.hamburgerbarxr{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.hamburgerbarxl{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 1x;
+    border: 1px solid #ccc;
+    transform: translateX(-50%) translateY(-50%) rotate(130deg);
+}
